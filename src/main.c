@@ -45,7 +45,6 @@
  */
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 #include "portaudio.h"
 
@@ -244,7 +243,7 @@ int main(void)
 
     printf("----------------------------------------------\n");
 
-    system("pause");
+    getchar();
     return 0;
 
 error:
