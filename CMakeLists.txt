@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.18)
 
-project(portaudio-playground C)
-
-#SET(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/modules" ${CMAKE_MODULE_PATH})
-
+project(portaudio-boilerplate C)
 
 SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static")
 
