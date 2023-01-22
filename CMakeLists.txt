@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.18)
 
-project(portaudio-boilerplate C)
+project(portaudio-playground C)
 
 SET(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -static")
 
