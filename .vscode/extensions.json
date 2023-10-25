@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "ms-vscode.cmake-tools"
+        "ms-vscode.cmake-tools",
+        "github.vscode-github-actions",
+        "ms-vscode.cpptools"
     ]
 }
