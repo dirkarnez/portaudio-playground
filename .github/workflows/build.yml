@@ -5,7 +5,10 @@ on:
     tags:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
       - 'c*'
-
+      
+permissions:
+    contents: write
+    
 jobs:
   build:
     strategy:
@@ -84,7 +87,6 @@ jobs:
             ${{ github.workspace }}\cmake-3.24.0-windows-x86_64\bin;
             set CD_LINUX=%CD:\=/%
             gcc --version &&^
-            cd ${{ env.libraryName }} &&^
             cmake.exe -G"MinGW Makefiles" ^
             -DCMAKE_BUILD_TYPE=Release ^
             -DBUILD_SHARED_LIBS=OFF ^
