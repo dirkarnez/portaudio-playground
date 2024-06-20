@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\cmake-build\\portaudio-playground.exe",
+            "program": "${workspaceFolder}\\cmake-build\\${workspaceRootFolderName}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
