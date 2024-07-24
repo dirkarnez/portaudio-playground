@@ -26,7 +26,7 @@
         "Command Prompt": {
             "path": ["${env:windir}\\System32\\cmd.exe"],
             "env": { 
-                "PATH": "D:\\Softwares\\PortableGit\\bin;D:\\Softwares\\winlibs-x86_64-posix-seh-gcc-11.2.0-mingw-w64-9.0.0-r1\\mingw64\\bin"
+                "PATH": "D:\\Softwares\\PortableGit\\bin;D:\\Softwares\\winlibs-x86_64-posix-seh-gcc-11.2.0-mingw-w64-9.0.0-r1\\mingw64\\bin;D:\\Softwares\\cmake-3.29.3-windows-x86_64\\bin"
             }
         }
     },
