@@ -8,3 +8,7 @@ portaudio-playground
 ### TODOs
 - [ ] remove logic in .github/workflows/build.yml
   - refer to [dirkarnez/sdcc-playground](https://github.com/dirkarnez/sdcc-playground)
+- [ ] Study [obsproject/obs-plugintemplate](https://github.com/obsproject/obs-plugintemplate)
+
+
+
