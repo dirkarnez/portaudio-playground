@@ -21,3 +21,6 @@ portaudio-playground
   - [target_link_options — CMake 3.31.3 Documentation](https://cmake.org/cmake/help/latest/command/target_link_options.html)
   - [target_link_directories — CMake 3.31.3 Documentation](https://cmake.org/cmake/help/latest/command/target_link_directories.html)
   - [target_include_directories — CMake 3.31.3 Documentation](https://cmake.org/cmake/help/latest/command/target_include_directories.html)
+
+### CMake tutorials
+- [CMake设置目标链接选项的两种方法,-CSDN博客](https://blog.csdn.net/sinat_31608641/article/details/128635869)
