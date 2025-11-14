@@ -12,6 +12,8 @@ portaudio-playground
 
 
 ### CMake docs
+- `CMAKE_CURRENT_SOURCE_DIR` = `%cd%`
+- `CMAKE_CURRENT_LIST_DIR` = `%~dp0`
 - [cmake-properties(7) — CMake 3.31.3 Documentation](https://cmake.org/cmake/help/latest/manual/cmake-properties.7.html#target-properties)
 - [cmake-commands(7) — CMake 3.31.3 Documentation](https://cmake.org/cmake/help/latest/manual/cmake-commands.7.html)
   - [target_compile_definitions — CMake 3.31.3 Documentation](https://cmake.org/cmake/help/latest/command/target_compile_definitions.html)
