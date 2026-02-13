@@ -5,6 +5,9 @@ portaudio-playground
 ### Using
 - [dirkarnez/portaudio-prebuilt](https://github.com/dirkarnez/portaudio-prebuilt)
 
+### Tutorials
+- [PortAudio: paex_record.c Source File](https://files.portaudio.com/docs/v19-doxydocs/paex__record_8c_source.html)
+
 ### TODOs
 - [ ] remove logic in .github/workflows/build.yml
   - refer to [dirkarnez/sdcc-playground](https://github.com/dirkarnez/sdcc-playground)
