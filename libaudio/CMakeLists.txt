@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.18)
 
 project("libaudio") # ${PROJECT_NAME}
 
-find_package(portaudio 19 EXACT REQUIRED) # PATHS "P:\\Downloads\\cpp-libraries\\portaudio\\build\\cmake\\portaudio")
+find_package(portaudio 19 EXACT REQUIRED)
 
 if(portaudio_FOUND)
     message(STATUS "YES")
@@ -13,6 +13,9 @@ else()
     message(STATUS "NO")
 endif()
 
+
+# find_package(libsndfile  EXACT REQUIRED)
+# libsndfile-v1.2.2-winlibs-x86_64-posix-seh-gcc-11.2.0-mingw-w64-9.0.0-r1
 
 add_library("${PROJECT_NAME}" STATIC
     "src/libaudio.c"

@@ -4,7 +4,7 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${env:USERPROFILE}\\Downloads\\portaudio-v19.7.0-mingw64-x86_64-posix-seh-rev0-8.1.0\\include\\**"
+                "${env:USERPROFILE}\\Downloads\\portaudio-v19.7.0-winlibs-x86_64-posix-seh-gcc-11.2.0-mingw-w64-9.0.0-r1\\include\\**"
             ],
             "defines": [
                 "_DEBUG",
